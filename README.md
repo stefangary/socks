@@ -1,4 +1,4 @@
-# socks
+# SOCKS
 Stefan's Oceanographic and Climate toolKit for Students
 
 This repository holds a Dockerfile and documentation for
