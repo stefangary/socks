@@ -30,6 +30,8 @@ RUN apt-get update && apt-get install -y \
     liblapack-dev \
     graphicsmagick \
     ffmpeg \
+    tcsh \
+    parallel \
     libblas-dev
 
 # For some applications (not mine), GMT
@@ -103,7 +105,7 @@ RUN git clone https://github.com/stefangary/hydrobase3.git; \
 # Instructions for silent installation of
 # Miniconda at: https://docs.anaconda.com/anaconda/install/silent-mode/
 
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3-latest_Linux-x86_64.sh; \
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O Miniconda3-latest-Linux-x86_64.sh; \
     chmod a+x ./Miniconda3-latest-Linux-x86_64.sh; \
     ./Miniconda3-latest-Linux-x86_64.sh -b -p /app/miniconda3; \
     rm -f *.tar.gz Miniconda3-latest-Linux-x86_64.sh; \
