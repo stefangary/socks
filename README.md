@@ -1,5 +1,5 @@
 # SOCKS
-Stefan's Oceanographic and Climate toolKit for Students
+Stefan's Oceanographic and Climate Kit for Students
 
 This repository holds a Dockerfile and documentation for
 building a container that holds key software for oceanographic
@@ -47,7 +47,7 @@ the jupyter/scipy-notebook and add the necessary software.  I need to check:
 
 ## Downloading and running locally
 
-The software container **and** the container "reader" (Docker Desktop) each need to be downloaded onto your computer.  Expect this to take at least about ~6GB when installed on your computer.  The downloads themselves are about ~2GB total.
+The software container **and** the container "reader" (Docker Desktop) each need to be downloaded onto your computer.  Expect this to take at least about ~10GB when installed on your computer.  The downloads themselves are about ~3GB total.
 
 1. Install Docker Desktop for [Mac](https://hub.docker.com/editions/community/docker-ce-desktop-mac) or [Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows). If you're running Linux, install Docker Engine via [these instructions](https://docs.docker.com/engine/install/ubuntu).
 
@@ -68,8 +68,3 @@ To run the container mounting local directory:
 *NIX, Mac, Win
 
 
-# Copyright (c) Jupyter Development Team.
-# Distributed under the terms of the Modified BSD License.
-
-
-1. 
