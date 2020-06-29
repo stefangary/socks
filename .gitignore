@@ -1,3 +1,10 @@
 # Ferret jnl files
 *.jnl
 *.jnl.~*
+
+# Emacs backup files
+*~
+
+# ipynb checkpoints
+ipyferret_*/
+.ipynb_checkpoints/
