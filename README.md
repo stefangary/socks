@@ -1,5 +1,5 @@
 # SOCKS
-Stefan's Oceanographic and Climate Kit for Students
+Streamlined Oceanographic and Climate Kit for Students
 
 This repository holds a Dockerfile and documentation for
 building a container that holds key software for oceanographic
@@ -7,7 +7,7 @@ and climate science applications.  The container image is
 available [here](https://hub.docker.com/stefanfgary/socks).
 
 This collection of software is the collective work of many
-other people; immense thanks to the Jupyter Development
+people; immense thanks to the Jupyter Development
 Team, UCAR/Unidata, the GMT development team, NOAA PMEL,
 Patrick Brockmann, Ruth Curry, and Damian Avila.  Please see
 BIBLIOGRAPHY.md for more detailed reference information.
