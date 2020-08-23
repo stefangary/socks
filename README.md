@@ -2,9 +2,11 @@
 Streamlined Oceanographic and Climate Kit for Students
 
 This repository holds a Dockerfile and documentation for
-building a container that holds key software for oceanographic
-and climate science applications.  The container image is
-available [here](https://hub.docker.com/stefanfgary/socks).
+a container that holds key software for oceanographic
+and climate science applications.
++ Instructions for using this software via its interface are in the `docs` directory.
++ The [container image](https://hub.docker.com/stefanfgary/socks)
+is available for download to a laptop with more details below.
 
 This collection of software is the collective work of many
 people; immense thanks to the Jupyter Development
