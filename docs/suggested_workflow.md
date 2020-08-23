@@ -37,12 +37,13 @@ much much easier.  You can quickly push multiple versions of your notebook
 (including any error messages) to a space where you control exactly who
 sees your data.  All versions are tracked so you can be confident that you
 know exactly which one is the current version and if you break something,
-you can even revert to previous versions.
+you can display just the differences between versions to compare them
+and/or revert to a previous version.
 
 And if you need even more motivation for diving into this workflow, the
-tools and concepts we use here lie at the core of the Internet was we
+tools and concepts we use here lie at the core of the Internet as we
 know it today.  International teams of scientists and commerical developers
-use GitHub as one of the *defacto* standars for collaboration.  The vast
+use GitHub as one of the *defacto* standards for collaboration.  The vast
 majority of artifical intelligence teaching and research is shared via
 Jupyter notebooks.  Cloud computing is likely to be the main, and
 most environmentally responsible, way to interact with large commerical
@@ -66,7 +67,7 @@ experiment in remote learning is over.
 
 6. You can always go back to the original landing tab to select other files to view/edit within your cloud computing instance.
 
-7. The original landing tab can also be used to open a terminal where you can issue commands directly to the underlying operating system of your cloud computing instance.  As we shall see later, this is how we will pull and push our work from GitHub.
+7. The original landing tab can also be used to open a terminal where you can issue commands directly to the underlying operating system of your cloud computing instance.  As we shall see later, the terminal is how we will pull and push our work from GitHub.
 
 ***
 
