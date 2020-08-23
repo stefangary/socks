@@ -67,23 +67,25 @@ experiment in remote learning is over.
 
 6. You can always go back to the original landing tab to select other files to view/edit within your cloud computing instance.
 
-7. The original landing tab can also be used to open a terminal where you can issue commands directly to the underlying operating system of your cloud computing instance.  As we shall see later, the terminal is how we will pull and push our work from GitHub.
+7. The original landing tab can also be used to open a terminal where
+you can issue commands directly to the underlying operating system of
+your cloud computing instance.  As we shall see later, the terminal
+is how we will pull and push our work from GitHub.
 
 ***
 
 # Step 2: Markdown
 
 1. Markdown is a way to annotate text files so that they have formatted
-headings, bold/italic/underlined text, lists, images, and even equations.
-Basically, Markdown is like a simple word processor embedded in a
-Jupyter notebook.
+headings, bold and italic text, lists, images, and even equations.
+Markdown is like a simple word processor embedded in a Jupyter notebook.
 
 2. Since the beauty of a Jupyter notebook is the way that it can store
 writing, code, and output all in one file, Markdown acts to help make
 all the writing components of the notebook more readable.
 
 3. By default, a new Jupyter notebook cell is classified as a `Code` cell.
-But you can change the cell to a Markdown cell by clicking on the
+You can change the cell to a Markdown cell by clicking on the
 `Cell` -> `Cell Type` menu item and selecting the `Markdown` option.
 
 4. Specific characters in the text will result in certain types of
@@ -92,15 +94,20 @@ with \##, and subsubheadings with \###.  Click on the `Run` button
 in the toolbar, or on `Cell` -> `Run Cells` from the menubar and the
 special formatting will appear.
 
-5. *Italic* and **bold** and ***bold-italic*** text can be created to!
+5. *Italic* and **bold** and ***bold-italic*** text can be created too!
 
-6. Lists are a great way to organize thoughts and can be created with numbers (e.g. 1.) or bullets (-).
+6. Lists are a great way to organize thoughts and can be created
+with numbers (e.g. 1.) or bullets (-).
 
-7. This is just a starter covering the essentials of what you'll probably need in class; if you are curious and want to embellish, [there are many more **optional** Markdown commands](https://www.markdownguide.org/basic-syntax).
+7. This is just a starter covering the essentials of what you'll
+probably need in class; if you are curious and want to embellish,
+[there are many more **optional** Markdown commands](https://www.markdownguide.org/basic-syntax).
 
 ***
 
 # Step 3: GitHub - pulling assignment templates
+
+
 
 ***
 
