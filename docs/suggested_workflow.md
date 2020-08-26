@@ -1,9 +1,95 @@
-# Introduction and motivation
+# Why workflow?
 
-This file outlines a suggested workflow for working with Jupyter
-notebooks.  Jupyter notebooks are *awesome* because:
+We are learning in a totally new way. For the very 
+first step, I want to explicitly outline 
+1. big picture motivations, 
+2. expectations, and 
+3. how \#1 and \#2 set the components of our course workflow.
+
+## 1 - Motivations
+
+There is no doubt that learning about our Earth's 
+climate, and the role of the ocean in particular, 
+is an important topic for our times.  As we shall
+see, processes in the ocean store and release
+Earth's heat and carbon.  The slower speed yet
+greater bulk of the ocean, compared to the atmosphere,
+means that the ocean has a longer "memory". 
+An overarching hypothesis of climate science is that
+the ocean plays an essential role on the longer
+(e.g. annual and greater) timescales.
+
+There is also profound injustice in
+1. who is most impacted by climate change,
+2. who has access to the data and tools for assessing these injustices, and
+3. how those data are used to make global-scale decisions. 
+Developing fluency in the language of computing
+will empower *your* voice in what is becoming an
+increasingly data-driven field.  "Data-driven"
+does *not* mean decisions are objective; [systemic
+racism is in computing](https://www.nytimes.com/2019/12/19/technology/facial-recognition-bias.html).  Your work
+and critical thinking in an environment of open
+source and open platforms will allow you to more
+easily share your work while also empowering others.
+
+## 2 - Expectations
+
+The core aspirations in this classroom are:
+1. inclusivity
+2. engagement
+3. growth
+4. critical thinking
+   - subdividing big things into parts
+   - examining the parts
+   - making choices and evaluations
+   - documenting those choices.
+
+I am *not* looking for, or expecting perfection,
+either from myself or from you.  Rather, this
+process is highly **iterative** where it is
+important to first think about breaking up
+big challenges into smaller steps and even
+substeps and subsubsteps...  Progress
+is made, patiently, one step at a time.
+
+## 3 - Main workflow components
+
+Here, we will use:
+1. cloud computing resources (Bowdoin's high performance computing grid),
+2. Jupyter notebooks (an open platform for storing and documenting all ideas, 
+code, and results), and 
+3. GitHub Classroom (for collaboration and tracking iterations).
+
+While perhaps dauting at first, using GitHub will make collaboration much
+easier.  You can quickly push iterations of your Jupyter notebooks
+(including any error messages) to a space where you control exactly who
+sees your data.  All iterations are tracked so you can be confident that you
+know exactly which one is the current version and if something breaks,
+you can display the differences between versions to compare them
+and/or revert to a previous version.  [This repository is an example of
+tracking iterations from my own work](https://github.com/stefangary/larval-parameter-sweep/network).
+
+The tools and concepts used here lie at the core of the Internet. 
+1. International teams of scientists and commerical developers
+use GitHub as one of the *de facto* standards for collaboration. 
+2. The vast majority of artifical intelligence and data science 
+teaching and research is shared via Jupyter notebooks. 
+3. Cloud computing is likely to be the main, and most environmentally 
+responsible, way to interact with large commerical or scientific 
+data sets. 
+This is the way things were before COVID-19 and it will likely
+continue to be this way even after our massive experiment 
+in remote learning is over.
+
+# What does a workflow look like?
+
+## Jupyter notebooks
+
+Jupyter notebooks (`.ipynb`) will be the main way
+information is stored. Jupyter notebooks are
+*awesome* because:
 1. they can store text, images, code, error messages and more all in one file,
-2. with all of the main thoughts and results stored in the same file, that single file can be shared between people who are working remotely, and
+2. with the thoughts and results stored in the same file, that single file can be shared between people who are working remotely, and
 3. all you need to see and interact with this file is a web browser.
 
 ## A **workflow** is the series of steps that go from
@@ -26,30 +112,15 @@ notebooks.  Jupyter notebooks are *awesome* because:
 + sharing of intermediate results for collaboration is clunky (e.g. which e-mail with which attachment is the right one? Did you share all the necessary files? Did any files get garbled because your collaborator doesn't have exactly the right version/setup of the software on their computer?).
 
 ## To address the issues above, I propose the following workflow:
-1. creating a copy of the template on GitHub (from link in Blackboard/e-mail),
-2. pulling your copy of the template to cloud computing resources (all the software is preinstalled and all the data is already there),
+1. creating a copy of the template on GitHub Classroom
+(from link in Blackboard/e-mail),
+2. pulling your copy of the template to cloud computing 
+resources (all the software is preinstalled and all 
+the data is already there),
 3. putting your own work into the template,
-4. (optionally) pushing changes (at any stage in the work) to GitHub for sharing,
+4. (optionally) pushing changes (at any stage in the work) 
+to GitHub Classroom for sharing,
 5. uploading the final result to Blackboard.
-
-While perhaps dauting at first, using GitHub will make collaboration much
-much much easier.  You can quickly push multiple versions of your notebook
-(including any error messages) to a space where you control exactly who
-sees your data.  All versions are tracked so you can be confident that you
-know exactly which one is the current version and if you break something,
-you can display just the differences between versions to compare them
-and/or revert to a previous version.
-
-And if you need even more motivation for diving into this workflow, the
-tools and concepts we use here lie at the core of the Internet as we
-know it today.  International teams of scientists and commerical developers
-use GitHub as one of the *defacto* standards for collaboration.  The vast
-majority of artifical intelligence teaching and research is shared via
-Jupyter notebooks.  Cloud computing is likely to be the main, and
-most environmentally responsible, way to interact with large commerical
-or scientific data sets.  This is the way things were before
-COVID-19 and it will continue to be this way even after our massive
-experiment in remote learning is over.
 
 ***
 
