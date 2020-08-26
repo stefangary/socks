@@ -52,6 +52,14 @@ big challenges into smaller steps and even
 substeps and subsubsteps...  Progress
 is made, patiently, one step at a time.
 
+It is also essential to clarify that
+jumping into this computational environment
+is no easy task; you will be learning a
+new language.  The introduction to this
+language is spread over several weeks;
+each step will go hand-in-hand with 
+course material.
+
 ## 3 - Main workflow components
 
 Here, we will use:
