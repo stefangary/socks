@@ -23,6 +23,7 @@ There is also profound injustice in
 1. who is most impacted by climate change,
 2. who has access to the data and tools for assessing these injustices, and
 3. how those data are used to make global-scale decisions. 
+
 Developing fluency in the language of computing
 will empower *your* voice in what is becoming an
 increasingly data-driven field.  "Data-driven"
@@ -56,9 +57,10 @@ It is also essential to clarify that
 jumping into this computational environment
 is no easy task; you will be learning a
 new language.  The introduction to this
-language is spread over several weeks;
-each step will go hand-in-hand with 
-course material.
+language is spread over several weeks and **the
+first week of class will be devoted to building
+confidence in this new environment and class
+community.**
 
 ## 3 - Main workflow components
 
