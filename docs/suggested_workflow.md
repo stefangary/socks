@@ -140,6 +140,11 @@ to GitHub Classroom for sharing,
 
 2. Then go to the [JupyterHub portal](https://jupyter.bowdoin.edu), enter your username and password, and select the default notebook.  Access to bigger resources is available, but it is very unlikely you will need them in this class.
 
+(Note: Click only *one time* on the start button.  If you click more than
+once, you will get a 400 error page.  This is no problem, just wait a minute
+or so for your instance to spawn, then click on `Home` and then click on 
+`My Server` to get to the main landing page.)
+
 3. After logging in, you will have a view of your home directory on your cloud resource.  Either select a Jupyter notebook (`.ipynb`) file that already exists or create a new file.  When creating a new file, use the `Python 3.6` option.
 
 4. A new tab opens with your Jupyter notebook.  The notebook is structured as a series of cells which can be viewed as a way to organize your thoughts into coherent logical steps.  Cells can be code that tells the computer to do stuff or they can display your notes, images, and other relevant content.  The beauty of notebooks is that *nearly everything is in one file*.
