@@ -66,8 +66,8 @@ community.**
 
 Here, we will use:
 1. cloud computing resources (Bowdoin's high performance computing grid),
-2. Jupyter notebooks (an open platform for storing and documenting all ideas, 
-code, and results), and 
+2. Jupyter notebooks (an open platform for storing and documenting ideas, 
+code, and results in the same place), and 
 3. GitHub Classroom (for collaboration and tracking iterations).
 
 While perhaps dauting at first, using GitHub will make collaboration much
@@ -88,7 +88,7 @@ teaching and research is shared via Jupyter notebooks.
 responsible, way to interact with large commerical or scientific 
 data sets. 
 This is the way things were before COVID-19 and it will likely
-continue to be this way even after our massive experiment 
+continue to be this way even after our experiment 
 in remote learning is over.
 
 # What does a workflow look like?
@@ -191,20 +191,44 @@ probably need in class; if you are curious and want to embellish,
 
 ***
 
-# Step 3: GitHub - pulling assignment templates
+# Step 3: Using the terminal
 
+We will mainly use the terminal for navigating the directories of your
+space on Bowdoin's HPC grid and directly copying code from GitHub Classroom
+to the HPC grid.  "Directly" means we can sidestep the hoops of mounting
+network drives, downloading files, and dragging files to the right location
+on the network drives.
 
+Here are some useful tips:
+
+1. Typing `cd` on the command line will always take you back to your home directory, no matter where you are.
+2. Typing `pwd` on the command line will tell you where you are; it is short for "present working directory".
+3. Typing `ls` on the command line will give you a list of files and directories in the present working directory.
+4. To change to a new directory, type `cd` followed by the path of the directory you wish to go to.  For example,
+```bash
+cd HW01-intro-stefangary
+```
+5. The `.` is shorthand for the present working directory, so `cd .` won't do anything; you'll just stay where you are.
+6. The `..` is shorthand for the directory that contains the present working directory (i.e. it is "above") so `cd ..` will move you up a level.
+
+There are many many more things that can be done with these terminal
+commands but this list is probably the only thing you'll need to know
+for this course.
 
 ***
 
-# Step 4: GitHub - pushing your work for collaboration
+# Step 4: GitHub - pulling assignment templates
 
 ***
 
-# Step 5: Arithmetic operations in Python and 1-dimensional data
+# Step 5: GitHub - pushing your work for collaboration
 
 ***
 
-# Step 6: Loading NetCDF data and 2-dimensional data
+# Step 6: Arithmetic operations in Python and 1-dimensional data
+
+***
+
+# Step 7: Loading NetCDF data and 2-dimensional data
 
 ***
