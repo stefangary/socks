@@ -136,7 +136,7 @@ to GitHub Classroom for sharing,
 
 # Step 1: Logging in
 
-1. Ensure you are logged onto the VPN.  You may need 2-factor authentification with `Push` as your second password.
+1. Ensure you are logged onto the VPN.  You may need 2-factor authentification with `Push` as your second password if you use the Duo app.  If instead of using the Duo app you get codes by SMS, type `SMS` as your second password.  If instead of using the Duo app you get a phone call, type `Phone` as your second password.
 
 2. Then go to the [JupyterHub portal](https://jupyter.bowdoin.edu), enter your username and password, and select the default notebook.  Access to bigger resources is available, but it is very unlikely you will need them in this class.
 
@@ -193,11 +193,11 @@ probably need in class; if you are curious and want to embellish,
 
 # Step 3: Using the terminal
 
-We will mainly use the terminal for navigating the directories of your
-space on Bowdoin's HPC grid and directly copying code from GitHub Classroom
-to the HPC grid.  "Directly" means we can sidestep the hoops of mounting
-network drives, downloading files, and dragging files to the right location
-on the network drives.
+We will mainly use the terminal for navigating the directories (i.e. folders)
+of your space on Bowdoin's HPC grid and directly copying code from GitHub
+Classroom to the HPC grid.  "Directly" means we can sidestep the hoops of
+mounting network drives, downloading files, and dragging files to the right
+location on the network drives.
 
 Here are some useful tips:
 
@@ -212,23 +212,77 @@ cd HW01-intro-stefangary
 6. The `..` is shorthand for the directory that contains the present working directory (i.e. it is "above") so `cd ..` will move you up a level.
 
 There are many many more things that can be done with these terminal
-commands but this list is probably the only thing you'll need to know
+commands but this list probably contains the only things you'll need to know
 for this course.
 
 ***
 
 # Step 4: GitHub - pulling assignment templates
 
+GitHub Classroom will be used to store templates (e.g. starter code)
+for your assignments.  It's actually pretty easy to copy this starter code
+right to the HPC grid!
+
+I will post a link to activate your assignment on Blackboard.  When you
+click on this assignment link, you will go to GitHub classroom and then
+you'll have the chance to accept the assignment.  When you accept the
+assignment, a special directory is created that has your very own copy
+of the starter code/template for the assignment.  This special directory
+is called a **repository**.
+
+When your repository is created, you'll be taken to a new webpage; this
+webpage's address (i.e. URL) is very important so take note of it. It will
+have the form: github.com/ORGANIZATION-NAME/REPOSITORY-NAME where the organization name will be your course (e.g. Bowdoin-EOS2680-F20 or Bowdoin-EOS2585-F20)
+and the repository name will be the name of the assignment followed by
+your github username.
+
+To copy your repository to the Bowdoin HPC grid, you just need to open a
+terminal and type `git clone <URL-of-your-repository>`.  For example,
+```bash
+git clone https://github.com/Bowdoin-EOS2680-F20/HW01-intro-stefangary
+```
+
+Now, you're done with the terminal for now. Go back to the JupyterHub
+landing page to select the appropriate files to start working!
+
 ***
 
 # Step 5: GitHub - pushing your work for collaboration
+
+Although you're not required to upload your code to GitHub, if you
+do, it will be much easier to share your notebooks when they are
+in progress and when they are done with your peers.  When you're
+ready to commit a version of your code to GitHub,
+
+1. Save your Jupyter notebook
+2. Open a terminal on the HPC grid and navigate to the folder that
+contains your code (i.e. the repository) and make that folder your
+present working directory.
+3. Type the following at the command line while inside your repository 
+folder:
+```bash
+git add .
+git commit -m "Put a short description of the commit here."
+git push origin
+```
+
+You will likely need to enter your GitHub username and password
+and then the code will be copied up to the repository on a GitHub
+server.  You can now change the settings for your repository by going
+to your repository's URL (that includes choosing to allow your peers
+to see your code). Git will keep track of all versions of the code 
+that have been committed.
 
 ***
 
 # Step 6: Arithmetic operations in Python and 1-dimensional data
 
+Content coming soon.
+
 ***
 
 # Step 7: Loading NetCDF data and 2-dimensional data
+
+Content coming soon.
 
 ***
