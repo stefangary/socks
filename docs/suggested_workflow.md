@@ -242,6 +242,17 @@ terminal and type `git clone <URL-of-your-repository>`.  For example,
 git clone https://github.com/Bowdoin-EOS2680-F20/HW01-intro-stefangary
 ```
 
+By default, your repository is private so GitHub will ask you
+to enter your *GitHub* username and password.  Note that in a
+terminal, *no characters appear when you enter your password.*
+(This is analogous to dots covering up the characters when you
+enter your password at login.bowdoin.edu, except the terminal
+is much less sophisticated - it just doesn't display any
+characters.  If you make any mistakes while entering your password,
+you can use the delete key.  So, if you enter your password
+and don't see any characters appearing, that's totally OK.
+The terminal is not frozen; it's just protecting your password.
+
 Now, you're done with the terminal for now. Go back to the JupyterHub
 landing page to select the appropriate files to start working!
 
