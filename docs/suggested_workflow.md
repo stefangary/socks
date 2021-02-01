@@ -206,7 +206,7 @@ Here are some useful tips:
 3. Typing `ls` on the command line will give you a list of files and directories in the present working directory.
 4. To change to a new directory, type `cd` followed by the path of the directory you wish to go to.  For example,
 ```bash
-cd HW01-intro-stefangary
+cd LAB01-intro-stefangary
 ```
 5. The `.` is shorthand for the present working directory, so `cd .` won't do anything; you'll just stay where you are.
 6. The `..` is shorthand for the directory that contains the present working directory (i.e. it is "above") so `cd ..` will move you up a level.
@@ -232,14 +232,14 @@ is called a **repository**.
 
 When your repository is created, you'll be taken to a new webpage; this
 webpage's address (i.e. URL) is very important so take note of it. It will
-have the form: github.com/ORGANIZATION-NAME/REPOSITORY-NAME where the organization name will be your course (e.g. Bowdoin-EOS2680-F20 or Bowdoin-EOS2585-F20)
+have the form: github.com/ORGANIZATION-NAME/REPOSITORY-NAME where the organization name will be your course (e.g. Bowdoin-EOS1505-S21)
 and the repository name will be the name of the assignment followed by
-your github username.
+your GitHub username.
 
 To copy your repository to the Bowdoin HPC grid, you just need to open a
 terminal and type `git clone <URL-of-your-repository>`.  For example,
 ```bash
-git clone https://github.com/Bowdoin-EOS2680-F20/HW01-intro-stefangary
+git clone https://github.com/Bowdoin-EOS1505-S21/LAB01-intro-stefangary
 ```
 
 By default, your repository is private so GitHub will ask you
@@ -251,7 +251,7 @@ is much less sophisticated - it just doesn't display any
 characters.  If you make any mistakes while entering your password,
 you can use the delete key.  So, if you enter your password
 and don't see any characters appearing, that's totally OK.
-The terminal is not frozen; it's just protecting your password.
+The terminal is not frozen; it's just protecting your password.)
 
 Now, you're done with the terminal for now. Go back to the JupyterHub
 landing page to select the appropriate files to start working!
@@ -283,17 +283,5 @@ server.  You can now change the settings for your repository by going
 to your repository's URL (that includes choosing to allow your peers
 to see your code). Git will keep track of all versions of the code 
 that have been committed.
-
-***
-
-# Step 6: Arithmetic operations in Python and 1-dimensional data
-
-Content coming soon.
-
-***
-
-# Step 7: Loading NetCDF data and 2-dimensional data
-
-Content coming soon.
 
 ***
