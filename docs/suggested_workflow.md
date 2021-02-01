@@ -71,8 +71,8 @@ code, and results in the same place), and
 3. GitHub Classroom (for collaboration and tracking iterations).
 
 While perhaps dauting at first, using GitHub will make collaboration much
-easier.  You can quickly push iterations of your Jupyter notebooks
-(including any error messages) to a space where you control exactly who
+easier.  You can quickly push iterations of your code
+(including any plots, results, and error messages) to a space where you control exactly who
 sees your data.  All iterations are tracked so you can be confident that you
 know exactly which one is the current version and if something breaks,
 you can display the differences between versions to compare them
@@ -100,7 +100,7 @@ information is stored. Jupyter notebooks are
 *awesome* because:
 1. they can store text, images, code, error messages and more all in one file,
 2. with the thoughts and results stored in the same file, that single file can be shared between people who are working remotely, and
-3. all you need to see and interact with this file is a web browser.
+3. all you need to see, edit, and run the code in this file is a web browser.
 
 ## A **workflow** is the series of steps that go from
 1. getting the starting materials (e.g. assignment instructions),
@@ -123,12 +123,12 @@ information is stored. Jupyter notebooks are
 
 ## To address the issues above, I propose the following workflow:
 1. creating a copy of the template on GitHub Classroom
-(from link in Blackboard/e-mail),
+(from link in Blackboard),
 2. pulling your copy of the template to cloud computing 
 resources (all the software is preinstalled and all 
-the data is already there),
+the data is already on the Bowdoin HPC grid),
 3. putting your own work into the template,
-4. (optionally) pushing changes (at any stage in the work) 
+4. *optionally* pushing changes (at any stage in the work) 
 to GitHub Classroom for sharing,
 5. uploading the final result to Blackboard.
 
