@@ -133,7 +133,7 @@ the data is already on the Bowdoin HPC grid),
 to GitHub Classroom for sharing,
 5. uploading the final result to Blackboard.
 
-More details are provided below about the core concepts/steps that underlies this workflow.
+More details are provided below about the core concepts/steps that underlie this workflow.
 
 ***
 
