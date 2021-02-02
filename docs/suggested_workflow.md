@@ -65,10 +65,11 @@ community.**
 ## 3 - Main workflow components
 
 Here, we will use:
-1. cloud computing resources (Bowdoin's high performance computing grid),
-2. Jupyter notebooks (an open platform for storing and documenting ideas, 
-code, and results in the same place), and 
-3. GitHub Classroom (for collaboration and tracking iterations).
+1. **Bowdoin's high performance computing (HPC) grid:** cloud computing resources,
+2. **Jupyter notebooks:** executable documents that store text, code, results, plots, comments, and error messages all in the same place,
+3. **Python:** the computer language in the Jupyter notebook,
+4. **Blackboard:** the place where course links and files are archived, and
+3. **GitHub Classroom:** for distributing starter/template code, collaboration and tracking iterations.
 
 While perhaps dauting at first, using GitHub will make collaboration much
 easier.  You can quickly push iterations of your code
@@ -131,6 +132,8 @@ the data is already on the Bowdoin HPC grid),
 4. *optionally* pushing changes (at any stage in the work) 
 to GitHub Classroom for sharing,
 5. uploading the final result to Blackboard.
+
+More details are provided below about the core concepts/steps that underlies this workflow.
 
 ***
 
