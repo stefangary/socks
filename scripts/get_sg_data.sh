@@ -28,7 +28,7 @@
 #===========================
 
 # Set the Seaglider ID
-set sgid = 605
+set sgid = 532
 
 # Set working data directory
 set datdir = /mnt/courses/eos1505
