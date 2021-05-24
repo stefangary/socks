@@ -16,12 +16,12 @@
 #===========================
 
 # Set the Seaglider ID
-set sgid = 605
+set sgid = 532
 
 # Set working data directory
 set datdir = /mnt/courses/eos1505
 
-foreach file ( ${datdir}/sg${sgid}/p${sgid}*.nc )
+foreach file ( ${datdir}/sg${sgid}/archive/p${sgid}*.nc )
 
     set bn = `basename ${file} .nc`
 
@@ -33,7 +33,7 @@ foreach file ( ${datdir}/sg${sgid}/p${sgid}*.nc )
 
     # Add bottom depth to the header
     hb_update_pdr tmp2.hb -T/home/sgary/hydrobase2/lib/topo.onetenthdeg.swap.dat
-    mv tmp2.hb.up ${datdir}/sg${sgid}/${bn}.hb
+    mv tmp2.hb.up ${datdir}/sg${sgid}/archive/${bn}.hb
     rm tmp1.hb
     rm tmp2.hb
    

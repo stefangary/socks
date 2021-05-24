@@ -1,4 +1,4 @@
-#!/bin/tcsh -f
+#!/bin/tcsh
 #===========================
 # The new version of Ferret
 # does not like the new
@@ -27,6 +27,8 @@
 # getVersion =  subprocess.Popen("awk '{print $7}' /etc/redhat-release", shell=True, stdout=subprocess.PIPE).stdout
 #===========================
 
+module load hb2
+
 # Set the Seaglider ID
 set sgid = 532
 
@@ -46,7 +48,7 @@ if ( -e ${datdir}/sg${sgid}/p${sgid}${dn}.nc ) then
     echo ${datdir}/sg${sgid}/p${sgid}${dn}.nc already exists.  Nothing to do.
     rm -f last_dive.nc
 else
-    mv last_dive.nc ${datdir}/sg${sgid}/p${sgid}${dn}.nc
+    mv last_dive.nc ${datdir}/sg${sgid}/p${sgid}0${dn}.nc
 
     # First convert,
     # Second select only the dive,
